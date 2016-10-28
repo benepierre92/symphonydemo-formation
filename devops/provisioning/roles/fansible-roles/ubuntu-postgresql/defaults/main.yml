@@ -8,7 +8,7 @@ postgresql_locale_parts:
   - 'UTF-8' # Encoding
 postgresql_locale: "{{ postgresql_locale_parts | join('.') }}"
 
-postgresql_admin_user: "postgres"
+postgresql_admin_user: "root"
 postgresql_default_auth_method: "trust"
 
 # The user/group that will run postgresql process or service
